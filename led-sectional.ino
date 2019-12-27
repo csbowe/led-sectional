@@ -5,7 +5,7 @@ using namespace std;
 
 #define FASTLED_ESP8266_RAW_PIN_ORDER
 
-#define NUM_AIRPORTS 62 // This is really the number of LEDs
+#define NUM_AIRPORTS 50 // This is really the number of LEDs
 #define WIND_THRESHOLD 25 // Maximum windspeed for green, otherwise the LED turns yellow
 #define LOOP_INTERVAL 5000 // ms - interval between brightness updates and lightning strikes
 #define DO_LIGHTNING true // Lightning uses more power, but is cool.
@@ -17,12 +17,12 @@ using namespace std;
 // Kits shipped after March 1, 2019 have a digital light sensor. Setting this to false assumes an analog light sensor.
 #define LIGHT_SENSOR_TSL2561 false
 
-const char ssid[] = "EDITME"; // your network SSID (name)
-const char pass[] = "EDITME"; // your network password (use for WPA, or use as key for WEP)
+const char ssid[] = ""; // your network SSID (name)
+const char pass[] = ""; // your network password (use for WPA, or use as key for WEP)
 
 // Define the array of leds
 CRGB leds[NUM_AIRPORTS];
-#define DATA_PIN    5 // Kits shipped after March 1, 2019 need to switch this to 14. Earlier kits us 5.
+#define DATA_PIN    14 // Kits shipped after March 1, 2019 need to switch this to 14. Earlier kits us 5.
 #define LED_TYPE    WS2811
 #define COLOR_ORDER RGB
 #define BRIGHTNESS 20 // 20-30 recommended. If using a light sensor, this is the initial brightness on boot.
@@ -102,19 +102,7 @@ std::vector<String> airports({
   "KBLU", // 47
   "KTRK", // 48
   "NULL", // 49 empty
-  "KTVL", // 50
-  "KO22", // 51
-  "KCPU", // 52
-  "KJAQ", // 53
-  "NULL", // 54 empty
-  "KSCK", // 55
-  "KMOD", // 56
-  "NULL", // 57 empty
-  "KMER", // 58
-  "KMCE", // 59
-  "NULL", // 60 empty
-  "KMAE", // 61
-  "KO88" // 62
+  "KTVL" // 50
 });
 
 #define DEBUG false
