@@ -105,16 +105,16 @@ std::vector<String> airports({
    "KEQY",   // 48 
    "KCLT",   // 49 
    "KJQF",   // 50 
-   "KSVH",   // 51 
-   "KEXX",   // 52 
-   "KGSO",   // 53 
-   "KSIF",   // 54 
-   "KMTV",   // 55 
-   "NULL",   // 56 
-   "KLYH",   // 57 
-   "NULL",   // 58 
-   "KROA",   // 59 
-   "NULL",   // 60 
+   "NULL",   // 51 
+   "KSVH",   // 52 
+   "KEXX",   // 53 
+   "KGSO",   // 54 
+   "KSIF",   // 55 
+   "KMTV",   // 56 
+   "NULL",   // 57 
+   "KLYH",   // 58 
+   "NULL",   // 59 
+   "KROA",   // 60 
    "KLWB",   // 61 
    "NULL",   // 62 
    "KCRW",   // 63 Sub for K48I
@@ -134,27 +134,27 @@ std::vector<String> airports({
    "KAPG",   // 77 
    "KILG",   // 78 
    "KDOV",   // 79 Sub for K0N4
-   "KCGE",   // 80 
-   "KNHK",   // 81 
-   "NULL",   // 82 
-   "KEZF",   // 83 
-   "KOMH",   // 84 
-   "KCHO",   // 85 
-   "KLKU",   // 86 
-   "K7W4",   // 87 
-   "KOFP",   // 88 
-   "KRIC",   // 89 
-   "KPTB",   // 90 
-   "KAKQ",   // 91 
-   "KPHF",   // 92 
-   "KORF",   // 93 
-   "KCPK",   // 94 
-   "KONX",   // 95 
-   "KECG",   // 96 
-   "KMQI",   // 97 
-   "K7W6",   // 98 
-   "KHSE",   // 99 
-   "NULL"   // 100 
+   "NULL",   // 80 
+   "KCGE",   // 81 
+   "KNHK",   // 82 
+   "NULL",   // 83 
+   "KEZF",   // 84 
+   "KOMH",   // 85 
+   "KCHO",   // 86 
+   "KLKU",   // 87 
+   "K7W4",   // 88 
+   "KOFP",   // 89 
+   "KRIC",   // 90 
+   "KPTB",   // 91 
+   "KAKQ",   // 92 
+   "KPHF",   // 93 
+   "KORF",   // 94 
+   "KCPK",   // 95 
+   "KONX",   // 96 
+   "KECG",   // 97 
+   "KMQI",   // 98 
+   "K7W6",   // 99 
+   "KHSE"   // 100 
 });
 
 #define DEBUG false
