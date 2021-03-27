@@ -89,7 +89,7 @@ std::vector<String> airports({
    "KOCW",   // 32 
    "KISO",   // 33 
    "KPGV",   // 34 
-   "KCWI",   // 35 
+   "KCWI",   // 35 Was KRWI
    "KETC",   // 36 
    "KIXA",   // 37 
    "KLVL",   // 38 
@@ -121,7 +121,7 @@ std::vector<String> airports({
    "KW22",   // 64 
    "KEKN",   // 65 
    "KCKB",   // 66 
-   "KMGW",   // 67 
+   "KMGW",   // 67 Was KMGM
    "K2G4",   // 68 
    "KCBE",   // 69 
    "NULL",   // 70 
